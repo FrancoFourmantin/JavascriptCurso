@@ -1,8 +1,16 @@
 // Make a div
 
+const myDiv = document.createElement('div');
+
 // add a class of wrapper to it
 
+myDiv.classList.add('wrapper');
+
 // put it into the body
+
+const myBody = document.querySelector('body');
+
+myBody.appendChild(myDiv);
 
 // make an unordered list
 
